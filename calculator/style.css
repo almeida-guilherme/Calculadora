@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Righteous&family=Sarala:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-size: 100%;
+    background: rgb(230, 224, 187);
+}
+
+/* Aqui é o Header */
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+#cabecalhoimagem{
+    width: 5cm;
+    border-radius: 65px;
+    float: left;
+    transition: width 1s;
+}
+
+#cabecalhoimagem:hover{
+    width: 7cm;
+}
+
+#cabecalhomenunav{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalhomenu{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(13, 15, 69);
+    font-weight: 400;
+    font-size: 18px;
+    transition: color 0.5s,font-size 0.5s;
+}
+
+nav a:hover{
+    color: rgb(168, 169, 196);
+    font-size: 20px;
+}
+/* Aqui é o Main */
+
+
+#container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    color: black;
+}
+
+h1{
+    font-family: 'League Gothic', sans-serif;
+}
+
+#rodape{
+    padding: 32px;
+    border-top: 0.4px solid rgb(0, 0, 0);
+}
+
+#rodapeimagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.margem{
+    height: 40px;
+    border-radius: 3px;
+}

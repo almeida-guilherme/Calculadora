@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id='cabecalho'>
+        <a href="/index.html"> <img id="cabecalhoimagem" src="/assets/logo.png" alt="logo"></a>
+        <nav id="cabecalhomenunav">
+            <a class="cabecalhomenu" href="https://github.com/guihenriquedev" target="_blank">Git Hub</a>
+            <a class="cabecalhomenu" href="https://www.linkedin.com/in/guilhermenrique/" target="_blank">Linkedin</a>
+            <a class="cabecalhomenu" href="/forms.html" target="_blank">Contato</a>
+            <a class="cabecalhomenu" href="https://www.youtube.com/Guino106" target="_blank">Mais</a>
+        </nav>
+    </header>
+    <main id="container">
+        <h1>Calculator</h1>
+        
+        <p id="result"></p>
+        <div id="line1">
+            <input type="button" value="7" onclick="calcR(this)" id="7">
+            <input type="button" value="8" onclick="calcR(this)" id="8">
+            <input type="button" value="9" onclick="calcR(this)" id="9">
+            <input type="button" value="/" onclick="calcR(this)" id="/">
+        <div id="line2">
+            <input type="button" value="4" onclick="calcR(this)" id="4">
+            <input type="button" value="5" onclick="calcR(this)" id="5">
+            <input type="button" value="6" onclick="calcR(this)" id="6">
+            <input type="button" value="*" onclick="calcR(this)" id="*">
+        <div id="line3">
+            <input type="button" value="1" onclick="calcR(this)" id="1">
+            <input type="button" value="2" onclick="calcR(this)" id="2">
+            <input type="button" value="3" onclick="calcR(this)" id="3">
+            <input type="button" value="-" onclick="calcR(this)" id="-">
+        <div id="line4">
+            <input type="button" value="C" onclick="calcR(this)" id="C">
+            <input type="button" value="0" onclick="calcR(this)" id="0">
+            <input type="button" value="=" onclick="calcR(this)" id="=">
+            <input type="button" value="+" onclick="calcR(this)" id="+"> 
+        </div>
+        <h1>by Guilherme Henrique</h1>
+    </main>
+    <footer id="rodape">
+        <img  id="rodapeimagem" src="/Assets/logowo.png" alt="logo">
+    </footer>
+    <script src="./code.js"></script>
+</body>
+</html>
